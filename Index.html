@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <Title> Barton Bangla Barasserie - Home Page</Title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type ="text/css" href="CSS/utilities.css">
+    <link rel="stylesheet" type ="text/css" href="CSS/styles.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+   
+</head>
+
+<body>
+<!-- Navbar-->
+<div class="navbar">
+<div class="container flex">
+    <a href="Index.html"><img src="Images/logo.jpg" alt=""></a>
+    <h1 class="logo">Barton Bangla Brasserie</h1>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Bookings.html">Bookings</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Testimonials.html">Testimonials</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+<!-- Showcase-->
+<section class="showcase">
+    <div class="container grid">
+        <div class="showcase-text">
+            <h1>The Nations Best Curry Restaraunt</h1>
+            <p>Thank you for all your support, after years of dedication and hard work, We have received recognition for our efforts and have been crowned the nations top Indian restaurant!</p>
+            <a href="https://www.lancs.live/whats-on/food-drink-news/lancashire-indian-restaurant-officially-named-21869978" class="btn btn-outline">Read More</a>
+        </div>
+            <div class="showcase-form card">
+                <h2>Book a table</h2>
+                <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
+                    <p class="hidden">
+                        <label>
+                          Don’t fill this out if you’re human: <input name="bot-field" />
+                        </label>
+                      </p>
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Name"required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="date" name="date" placeholder="date" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="time" name="time" placeholder="time" required>
+                    </div>
+                    <input type="submit" value="Book" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+</section>
+
+<!-- Articles -->
+<section class="articles">
+    <div class="section articles-main my-2">
+        <div class="container grid">
+            <div class="card flex">
+                <i class= "fas fa-utensils fa-3x"></i>
+                <p>Diners at the Barton Bangla Brasserie restaurant can expect to be served the freshest and most authentic selection of food from one of the most extensive Indian restaurant menus. </p>
+            </div>
+            <div class="cardflex">
+                <img src="Images/Article1.jpg" alt="">
+            </div>
+            <div class="cardflex">
+                <img src="Images/Article2.jpg" alt="">
+            </div>
+            <div class="card flex">
+                <i class= "fas fa-chair fa-3x"></i>
+                <p>Relaxed seating for groups from 2 to over 100 guests. Choose from one of the most extensive A la carte menus in Garstang ideal for any occasion, our menus offer a great range of dishes </p>
+            </div>
+            <div class="card flex">
+                <i class= "fas fa-bars fa-3x"></i>
+                <p>Browse our exciting menus, full of authentic flavours tailored to the local taste.</p>
+                <a href="Menu.html" class="btn btn-dark">Menu</a>
+            </div>
+            <div class="cardflex">
+                <img src="Images/Article3.jpg" alt="">
+            </div> 
+            <div class="cardflex">
+                <img src="Images/Article4.jpg" alt="">
+            </div> 
+            <div class="card flex">
+                <i class= "fas fa-clock fa-3x"></i>
+                <h3>Opening Times</34>
+                <h4>Monday to Sunday</h4>
+                <p>5:30pm to 11:00pm</p>
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="footer bg-dark py-5">
+    <div class="container grid">
+        <div>
+            <h1>Barton Bangla Brasserie</h1>
+            <p> Copyright &copy; 2022</p>
+            <ul>
+                <li>913 Garstang Rd,</li>
+                <li>Barton, Preston,</li>
+                <li>PR3 5AB</li>
+                <li><a href="01995640236">01995 640 236</a></li>
+                <li><a href="mailto:eat@bartonbanglabrasseriepreston.co.uk">eat@bartonbanglabrasseriepreston.co.uk</a></li>
+            </ul>
+        </div>
+        <div class="social">
+            <a href="#"><i class = "fab fa-twitter fa-2x"></i></a>
+            <a href="https://www.facebook.com/bartonbanglabrasserie/"><i class = "fab fa-facebook fa-2x"></i></a>
+            <a href="#"><i class = "fab fa-instagram fa-2x"></i></a>
+            <a href="#"><i class = "fab fa-yelp fa-2x"></i></a>
+            <a href="#"><i class = "fab fa-regular fa-envelope fa-2x"></i></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
